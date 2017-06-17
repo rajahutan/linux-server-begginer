@@ -1,10 +1,19 @@
-## Welcome to GitHub Pages
+## Linux Server Begginer Way
 
-You can use the [editor on GitHub](https://github.com/rajahutan/linux-server-begginer/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Simple tutorial to build a linux server.
 
 ### Markdown
+
+#The plan
+
+1. Linux 6.x
+2. Nginx Server
+3. PHP
+4. Mysql
+5. FTP Server
+6. Monitoring tool
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
