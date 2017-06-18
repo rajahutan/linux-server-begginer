@@ -13,18 +13,18 @@ In this totorial we use
 2. Check your timezone on `/usr/share/zoneinfo/`
 3. Make Symbolyc link to selected timezone file
 For Indonesian WITA / Ujung pandang /  Makasar
-```sh
+    ```sh
     ln -s  /usr/share/zoneinfo/Asia/Ujung_Pandang localtime
-```    
+    ```    
 For Indonesian WIB / Jakarta
-```sh
+    ```sh
     ln -s  /usr/share/zoneinfo/Asia/Jakarta localtime
-```
+    ```
 4. Update system clock to timeserver.
 ntpdate id.pool.ntp.org
 ### Issue
-- No Ntp server setting
-install ntp server
+- No Ntp server setting.
+install ntp server.
 We will release next totorial for each issue
 
 ## Install Mysql
