@@ -88,14 +88,20 @@ For Update
 
 ### (1) Prepare Instalation
 1. Update Yum
-    >yum install epel-release
-    >rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
-    >rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
-    >rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+    ```sh
+    yum install epel-release
+    rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+    rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
+    rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+    ```
 2. Install PHP 7 and modeule
-    >yum -y install php70w-fpm php70w-cli php70w-gd php70w-mcrypt php70w-mysql php70w-pear php70w-xml php70w-mbstring php70w-pdo php70w-json php70w-pecl-apcu php70w-pecl-apcu-devel
+    ```sh
+    yum -y install php70w-fpm php70w-cli php70w-gd php70w-mcrypt php70w-mysql php70w-pear php70w-xml php70w-mbstring php70w-pdo php70w-json php70w-pecl-apcu php70w-pecl-apcu-devel
+    ```
 3. Check the PHP version from server terminal to verify that PHP installed correctly.
-    >php -v
+    ```sh
+    php -v
+    ```
 
 ### (2) Configure PHP7-FPM
 1. Edit php-fpm config. location mybe different.
