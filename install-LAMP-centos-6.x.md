@@ -11,13 +11,13 @@ In this totorial we use
 
 2. Check your timezone on `/usr/share/zoneinfo/`
 3. Make Symbolyc link to selected timezone file
-For Indonesian WITA / Ujung pandang /  Makasar
+    For Indonesian WITA / Ujung pandang /  Makasar
     >ln -s  /usr/share/zoneinfo/Asia/Ujung_Pandang localtime
 
-For Indonesian WIB / Jakarta
+    For Indonesian WIB / Jakarta
     >ln -s  /usr/share/zoneinfo/Asia/Jakarta localtime
 4. Update system clock to timeserver.  
-ntpdate id.pool.ntp.org
+    ntpdate id.pool.ntp.org
 
 ### Issue
 - No Ntp server setting.  
