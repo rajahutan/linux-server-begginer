@@ -2,7 +2,7 @@
 
 Simple tutorial to build a linux server.
 
-##The plan
+## The plan
 
 1. Linux 6.x
 2. Nginx Server
