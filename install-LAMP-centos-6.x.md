@@ -56,7 +56,7 @@ In this totorial we use
     create user [your_user_name]@localhost identified by '[your_password]';
     grant all privileges on [your_db_name].* to [your_user_name]@localhost identified by '[your_password]';
     flush privileges;
-    ```mysql
+    ```
 
 ### Issue
 - Remote mysql fail  
@@ -67,7 +67,7 @@ We will release next totorial for each issue
 1. Make new config file on yum repo for nginx.
     >vim /etc/yum.repos.d/nginx.repo
 2. Add config to of file
-    ```txt
+    ```config
     [nginx]
     name=nginx repo
     baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
@@ -87,14 +87,14 @@ For Update
 ## PHP 7
 
 ### (1) Prepare Instalation
-Update Yum
+1. Update Yum
     >yum install epel-release
     >rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
     >rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
     >rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
-Install PHP 7 and modeule
+2. Install PHP 7 and modeule
     >yum -y install php70w-fpm php70w-cli php70w-gd php70w-mcrypt php70w-mysql php70w-pear php70w-xml php70w-mbstring php70w-pdo php70w-json php70w-pecl-apcu php70w-pecl-apcu-devel
-Finally, check the PHP version from server terminal to verify that PHP installed correctly.
+3. Check the PHP version from server terminal to verify that PHP installed correctly.
     >php -v
 
 ### (2) Configure PHP7-FPM
