@@ -1,7 +1,7 @@
 # Install FFMPEG
 
 ## Step 1: Update the system
-    ```sh
+    ```
     sudo yum install epel-release -y
     sudo yum update -y
     sudo shutdown -r now
