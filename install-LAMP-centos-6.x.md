@@ -7,24 +7,22 @@ In this totorial we use
 
 ## Setup Time
 1. Remove old locatime setup:
-    >rm /etc/localtime
+    > rm /etc/localtime
 
 2. Check your timezone on `/usr/share/zoneinfo/`
 3. Make Symbolyc link to selected timezone file
 For Indonesian WITA / Ujung pandang /  Makasar
-    ```sh
-    ln -s  /usr/share/zoneinfo/Asia/Ujung_Pandang localtime
-    ```    
+    >ln -s  /usr/share/zoneinfo/Asia/Ujung_Pandang localtime
+
 For Indonesian WIB / Jakarta
-    ```sh
-    ln -s  /usr/share/zoneinfo/Asia/Jakarta localtime
-    ```
-4. Update system clock to timeserver.
+    >ln -s  /usr/share/zoneinfo/Asia/Jakarta localtime
+4. Update system clock to timeserver.  
 ntpdate id.pool.ntp.org
+
 ### Issue
 - No Ntp server setting.  
 install ntp server.  
-We will release next totorial for each issue
+We will release next totorial for each issue.
 
 ## Install Mysql
 ### Install Mysql
