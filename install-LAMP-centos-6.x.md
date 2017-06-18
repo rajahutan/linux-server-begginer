@@ -23,8 +23,8 @@ For Indonesian WIB / Jakarta
 4. Update system clock to timeserver.
 ntpdate id.pool.ntp.org
 ### Issue
-- No Ntp server setting.__
-install ntp server.__
+- No Ntp server setting.  
+install ntp server.  
 We will release next totorial for each issue
 
 ## Install Mysql
