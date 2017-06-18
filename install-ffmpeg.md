@@ -8,7 +8,7 @@
     No official FFmpeg rpm packages for CentOS for now.
     We can use a 3rd-party YUM repo, Nux Dextop.
     - CentOS 7.x :
-        ```sh
+        ```bash
         sudo rpm --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
         sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
         ```
