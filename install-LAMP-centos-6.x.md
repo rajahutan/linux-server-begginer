@@ -7,9 +7,8 @@ In this totorial we use
 
 ## Setup Time
 1. Remove old locatime setup:
-    ```sh
-    rm /etc/localtime
-    ```
+    >rm /etc/localtime
+
 2. Check your timezone on `/usr/share/zoneinfo/`
 3. Make Symbolyc link to selected timezone file
 For Indonesian WITA / Ujung pandang /  Makasar
