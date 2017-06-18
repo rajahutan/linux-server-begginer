@@ -1,11 +1,9 @@
 # Install FFMPEG
 
 ## Step 1: Update the system
-    ```
     sudo yum install epel-release -y
     sudo yum update -y
     sudo shutdown -r now
-    ```
 ### Step 2: Install the Nux Dextop YUM repo
     No official FFmpeg rpm packages for CentOS for now.
     We can use a 3rd-party YUM repo, Nux Dextop.
